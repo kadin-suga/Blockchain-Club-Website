@@ -21,7 +21,7 @@ function Contact() {
   function contactBlock({title, text, buttName, link}) {
 
     return (
-      <div className='hover:scale-105 duration-300 w-max-[450px] m-5 justify-center p-8 bg-white bg-opacity-80 rounded-lg'>
+      <div className='hover:scale-105 duration-300 w-max-[450px] m-5 justify-center p-8 bg-white bg-opacity-80 rounded-lg pb-10'>
         <div>
           <h1 className='text-2xl'>{title}</h1>
           <p className='text-md'>{text}</p>
