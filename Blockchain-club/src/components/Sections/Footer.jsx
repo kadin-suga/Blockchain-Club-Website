@@ -28,6 +28,7 @@ function Footer() {
                     <div >
                         <h6 className='font-medium text-gray-400'>Club</h6>
                         <ul >
+                            <CustomLink className='py-2 text-sm' to='/'>Home</CustomLink>
                             <CustomLink className='py-2 text-sm' to='/about'>About</CustomLink>
                             <CustomLink className='py-2 text-sm' to='/events'>Events</CustomLink>
                         </ul>
