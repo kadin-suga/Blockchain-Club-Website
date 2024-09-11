@@ -17,9 +17,9 @@ function Team() {
     }
 
     return (
-        <section style={{ backgroundImage: `url(${walkway})` }} className='bg-cover bg-center bg-gray-100 py-16'>
+        <section style={{ backgroundImage: `url(${walkway})` }} className='min-h-screen bg-cover bg-center bg-fixed flex flex-col items-center justify-center py-20'>
             <div className='container mx-auto'>
-                <h1 className='text-4xl font-bold text-center mb-12'>Meet Our Team</h1>
+                <h1 className='text-4xl font-bold text-white text-center mb-12'>Meet Our Team</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {TEAM_ROSTER.map((item, index) => (
                         <TeamCard

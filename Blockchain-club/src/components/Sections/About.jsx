@@ -5,7 +5,7 @@ import track from '../../assets/tracks.jpg';
 
 function About() {
     const listItemClass = "hover:font-bold py-2 transition-all duration-300";
-    // px-4 md:px-10
+
     return (
         <section className='min-h-screen bg-cover bg-center bg-fixed flex flex-col items-center justify-center py-20 lg:px-10' style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${track})` }}>
             <div className='max-w-4xl w-full bg-gray-800 bg-opacity-90 rounded-lg shadow-xl overflow-hidden mb-10 mr-6 md:mr-10 lg:mr-0'>
