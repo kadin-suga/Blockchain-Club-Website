@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { HOME_NAVIGATION_LINKS } from "./libs/consts/Routes.Jsx";
+import { HOME_NAVIGATION_LINKS } from "./libs/consts/Routes.jsx";
 
 function App() {
   return (
