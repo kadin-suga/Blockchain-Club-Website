@@ -35,7 +35,7 @@ function Contact() {
   }
 
   return (
-    <section className='relative min-h-screen w-full bg-cover bg-center' style={{ backgroundImage: `url(${subway})` }}>
+    <section className='relative min-h-screen w-full bg-cover bg-fixed bg-center' style={{ backgroundImage: `url(${subway})` }}>
       <div className='absolute inset-0 bg-black bg-opacity-50'></div>
       <div className='relative z-10 pt-10 pb-20 px-4'>
         <div className='justify-center text-center mb-10'>
