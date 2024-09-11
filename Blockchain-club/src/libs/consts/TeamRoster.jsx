@@ -4,7 +4,7 @@ export const TEAM_ROSTER = [
     {
         position: "President",
         individual: "Kadin Suga",
-        description: "Senior studying Software Engineering and minoring in ",
+        description: "Senior studying Software Engineering and minoring in Finance",
         img: {profile}
     },
     {
