@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <NavLink to="/" >
-      <div className="hidden md:block h-[280px] w-full overflow-hidden">
+      <div className="hidden md:block h-[200px] w-full overflow-hidden">
           <img
             className="w-full h-full object-cover object-center"
             src={bannerImage}
