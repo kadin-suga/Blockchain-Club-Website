@@ -4,9 +4,13 @@ import walkway from '../../assets/tower.jpg';
 
 
 function Team() {
-    function TeamCard({ position, individual, description, img }) {
+    function handleOnclickTeam( link){
+        window.location.href = link;
+    }
+
+    function TeamCard({ position, individual, description, img, link }) {
         return (
-            <div className="opacity-90 bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
+            <div onClick={() => handleOnclickTeam(link)} className="cursor-pointer opacity-90 bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
                 <img src={img} alt={individual} className="w-full h-48 object-cover" />
                 <div className="p-6">
                     <h2 className="text-xl font-bold mb-2">{position}: {individual}</h2>
@@ -28,6 +32,7 @@ function Team() {
                             individual={item.individual}
                             description={item.description}
                             img={item.img}
+                            link={item.link}
                         />
                     ))}
                 </div>
