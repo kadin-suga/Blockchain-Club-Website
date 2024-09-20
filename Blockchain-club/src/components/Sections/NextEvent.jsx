@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link} from 'react-router-dom'
 
 function NextEvent({text, span}) {
   return (
@@ -6,7 +7,7 @@ function NextEvent({text, span}) {
         <h3 className="text-xl font-medium">
           {text}{' '}
           <span className="text-blue-600 underline cursor-pointer hover:text-blue-400">
-            <a href="/events">{span}</a>
+            <Link to="/events">{span}</Link>
           </span>
         </h3>
       </div>
