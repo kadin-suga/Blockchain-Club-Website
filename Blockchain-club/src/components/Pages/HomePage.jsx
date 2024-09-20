@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Sections/Header'
 import Home from '../Sections/Home'
 import Mission from '../Sections/Mission'
+import Contact from '../Sections/Contact'
 import Info from '../Sections/Info'
 import Footer from '../Sections/Footer'
 import Touch from '../Sections/Touch'
@@ -16,7 +17,7 @@ function HomePage() {
         <Mission/>
         <Info/>
         <NextEvent text="Check out our" span="upcoming events" />
-        <Touch/>
+        <Contact/>
         <Footer/>
     </div>
   )

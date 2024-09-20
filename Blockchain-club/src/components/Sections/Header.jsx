@@ -1,6 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
-import { Link,NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import bannerImage from "../../assets/banner_luc.png";  // Import the image correctly
 import clubLogo from "../../assets/LUC Club Picture.png";  // Import the image correctly
 function Header() {

@@ -10,7 +10,7 @@ const Nav = () => (
     <NavLink to="/about" className={linkClass}>About</NavLink>
     <NavLink to="/events" className={linkClass}>Events</NavLink>
     <NavLink to="/team" className={linkClass}>Team</NavLink>
-    <NavLink to="/involve" className={`${linkClass} md:border-l`}>Get Involved</NavLink>
+    <NavLink to="/involve" className={`${linkClass}`}>Contact us</NavLink>
   </>
 );
 

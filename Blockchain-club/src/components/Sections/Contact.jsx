@@ -47,7 +47,6 @@ function Contact() {
           {contactBlock(data1)}
           {contactBlock(data2)}
         </div>
-        <NextEvent text='Join us in our next' span='event' />
       </div>
     </section>
   );
