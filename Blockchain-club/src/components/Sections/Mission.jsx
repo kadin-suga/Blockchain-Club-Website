@@ -3,15 +3,15 @@ import React from 'react';
 function Mission() {
   const data1 = {
     title: "Educate",
-    info: ["What is Blockchain Technologies?", "What are Cryptocurrencies?", "How to use Blockchain Technologies?"]
+    info: ["Delve into the fundamentals of Blockchain Technologies.", "Explore the world of Cryptocurrencies.", "Understand the application of Blockchain in everyday life"]
   };
   const data2 = {
     title: "Empower",
-    info: ["Innovate on Blockchain Technologies?", "Understand the use of Blockchain?", "Procure a future career in Fintech."]
+    info: ["Drive innovation with cutting-edge Blockchain solutions.", "Unlock the potential of Blockchain.", "Procure a future career in Fintech."]
   };
   const data3 = {
     title: "Enlighten",
-    info: ["Have fun while learning with our community around blockchain and cryptocurrency technologies."]
+    info: ["Engage with a dynamic community and enjoy a transformative learning experience around Blockchain and Cryptocurrency."]
   };
 
   return (
