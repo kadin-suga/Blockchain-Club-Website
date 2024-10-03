@@ -15,7 +15,7 @@ function Contact() {
     title: 'Our Slack Community',
     text: 'Our Slack community is where we will post our event updates and community updates. With the Slack page you are able to talk to other fellow members and collab on various topics.',
     buttName: 'Join the community',
-    link: 'https://join.slack.com/t/blockchainluc/shared_invite/zt-2p4949wd3-ARWzYkNRyWlpNdveJKIHYg',
+    link: 'https://join.slack.com/t/blockchainluc/shared_invite/zt-2rjthro28-AuxiQZm_Ey6RGLjd7kvfoA',
   }
 
   function contactBlock({title, text, buttName, link}) {
