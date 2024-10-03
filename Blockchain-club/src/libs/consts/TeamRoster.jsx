@@ -11,9 +11,9 @@ export const TEAM_ROSTER = [
     {
         position: "Faculty advisor",
         individual: "William Bergman",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
+        description: "I am serving as the faculty adviser for the club. I teach finance courses here at Loyola.",
         img: {profile},
-        link: ""
+        link: "https://www.linkedin.com/in/bill-bergman-a04376234/"
     },
     {
         position: "Vice President",
@@ -32,7 +32,7 @@ export const TEAM_ROSTER = [
     {
         position: "Secretary",
         individual: "Laynie Sand",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
+        description: "I am a senior majoring in Political Science and minoring in Law & Politics and Math. I am the Secretary for the Blockchain LUC club.",
         img: {profile},
         link: ""
     },
