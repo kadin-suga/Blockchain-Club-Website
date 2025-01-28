@@ -23,6 +23,13 @@ export const TEAM_ROSTER = [
         link: ""
     },
     {
+        position: "Vice President",
+        individual: "Aaron Juco",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
+        img: {profile},
+        link: ""
+    },
+    {
         position: "Treasurer",
         individual: "Justice Jewison",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
@@ -45,7 +52,7 @@ export const TEAM_ROSTER = [
     },
     {
         position: "Public Relations",
-        individual: "Alejandro Osleber",
+        individual: "Miguel Tolentino",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
         img: {profile},
         link: ""
@@ -61,6 +68,20 @@ export const TEAM_ROSTER = [
         position: "CAN Representative",
         individual: "Natalie Martinez",
         description: "I am currently a sophomore majoring in Economics with a minor in Finance. I also serve as the CAN Representative for the Blockchain LUC club!",
+        img: {profile},
+        link: ""
+    },
+    {
+        position: "Senior Blockchain Researcher",
+        individual: "Sebastian Lueders",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
+        img: {profile},
+        link: ""
+    },
+    {
+        position: "Senior Blockchain Researcher",
+        individual: "Daniel Duvic",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, inventore explicabo esse provident assumenda numquam corrupti ab consequatur quia ipsa adipisci iure fugit culpa debitis tempora deserunt perferendis aut officia.",
         img: {profile},
         link: ""
     },
