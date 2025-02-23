@@ -22,10 +22,17 @@ if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
 }
 
-// Check if the log file exists; if not, create it and initialize with an empty object
-if (!fs.existsSync(logFilePath)) {
-  fs.writeFileSync(logFilePath, JSON.stringify({}), 'utf8');
-}
+// Function to read existing traffic data from the log file
+const readTrafficData = () => {
+  if (fs.existsSync(logFilePath)) {
+    try {
+      const data = fs.readFileSync(logFilePath, 'utf8');
+      pageCounts = JSON.parse(data); // Update pageCounts with existing data
+    } catch (error) {
+      console.error('Error reading traffic data:', error);
+    }
+  }
+};
 
 // Function to log data to a file
 const logTrafficData = () => {
@@ -35,6 +42,9 @@ const logTrafficData = () => {
     console.error('Error writing traffic data:', error);
   }
 };
+
+// Initial read to populate pageCounts from the log file
+readTrafficData();
 
 const run = async () => {
   await consumer.connect();
