@@ -1,8 +1,7 @@
 import { Kafka } from 'kafkajs';
 import fs from 'fs';
 import path from 'path';
-// run command below
-// node Blockchain-club/kafka/consumer.js   
+
 // Kafka setup
 const kafka = new Kafka({
   clientId: 'traffic-consumer',
@@ -21,6 +20,11 @@ const logFilePath = path.join(logDir, 'traffic_log.json');
 // Ensure the logs directory exists
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
+}
+
+// Check if the log file exists; if not, create it and initialize with an empty object
+if (!fs.existsSync(logFilePath)) {
+  fs.writeFileSync(logFilePath, JSON.stringify({}), 'utf8');
 }
 
 // Function to log data to a file
