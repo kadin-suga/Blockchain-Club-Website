@@ -10,5 +10,6 @@
     "start": "cd Blockchain-club && npm start",
     "build": "cd Blockchain-club && npm run build",
     "test": "cd Blockchain-club && npm test"
-  }
+  },
+  "type": "module"
 }
