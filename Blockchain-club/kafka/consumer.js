@@ -1,7 +1,8 @@
 import { Kafka } from 'kafkajs';
 import fs from 'fs';
 import path from 'path';
-
+// run command below
+// node Blockchain-club/kafka/consumer.js   
 // Kafka setup
 const kafka = new Kafka({
   clientId: 'traffic-consumer',
