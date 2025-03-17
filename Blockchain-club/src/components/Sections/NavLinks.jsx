@@ -10,7 +10,8 @@ const Nav = () => (
     <NavLink to="/about" className={linkClass}>About</NavLink>
     <NavLink to="/events" className={linkClass}>Events</NavLink>
     <NavLink to="/team" className={linkClass}>Team</NavLink>
-    <NavLink to="/involve" className={`${linkClass}`}>Contact us</NavLink>
+    <NavLink to="/involve" className={linkClass}>Contact us</NavLink>
+    <NavLink to="/analytics" className={linkClass}>Analytics</NavLink>
   </>
 );
 
@@ -27,14 +28,14 @@ const Navlink = () => {
         <div className="hidden w-full justify-between md:flex">
           <Nav />
         </div>
-        <div className=" ease-in-out duration-500 md:hidden">
-          <button onClick={toggleNavbar} className="">
+        <div className="ease-in-out duration-500 md:hidden">
+          <button onClick={toggleNavbar}>
             {isOpen ? <X /> : <Menu />}
           </button>
         </div>
       </nav>
       {isOpen && (
-        <div className="flex flex-col items-center basis-full  md:hidden">
+        <div className="flex flex-col items-center basis-full md:hidden">
           <Nav />
         </div>
       )}
