@@ -1,7 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { HOME_NAVIGATION_LINKS } from "./libs/consts/Routes.jsx";
+import { useUserTracking } from './hooks/useUserTracking';
 
 function App() {
+  useUserTracking();
   return (
       <Routes>
         {HOME_NAVIGATION_LINKS.map((item) => (
