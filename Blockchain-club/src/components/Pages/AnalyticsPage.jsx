@@ -1,3 +1,4 @@
+console.log("AnalyticsPage loaded")
 import React, { useEffect, useState } from 'react';
 import Header from '../Sections/Header';
 import Footer from '../Sections/Footer';
