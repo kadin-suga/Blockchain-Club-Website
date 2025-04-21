@@ -3,7 +3,8 @@ import ContactPage from "../../components/Pages/ContactPage";
 import EventPage from "../../components/Pages/EventPage";
 import HomePage from "../../components/Pages/HomePage";
 import TeamPage from "../../components/Pages/TeamPage";
-import AnalyticsPage from "../../components/Pages/AnalyticsPage";
+import AnalyticsPage from "../../../components/Pages/AnalyticsPage";
+
 
 export const HOME_NAVIGATION_LINKS =[
     {
