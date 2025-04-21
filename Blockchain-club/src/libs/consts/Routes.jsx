@@ -1,4 +1,3 @@
-console.log("AnalyticsPage loaded")
 import AboutPage from "../../components/Pages/AboutPage";
 import ContactPage from "../../components/Pages/ContactPage";
 import EventPage from "../../components/Pages/EventPage";
